@@ -128,7 +128,7 @@
                 <p>
                     Integrating business concepts by providing customized
                     innovative and creative business solutions underpinning holistic sustainable development,
-                    while creating a sound partnership and skills sharing magnitude with big reputable companies.
+                    while creating a sounds partnership and skills sharing magnitude with big reputable companies.
                 <div id="about"></div>
                 <br />
                 </p>
