@@ -113,11 +113,6 @@
                     </a>
                 </div>
             </div>
-            <!--
-                     <a class="readmore-btn" href="<?php //echo site_url('/about'); ?>" >Read More &raquo;</a>
-                <div id="services"></div>-->
-
-
         </div>
     </section>
     <!-- ======= Cta Section ======= -->
@@ -131,7 +126,6 @@
                     Felicity Holdings (Pty) Ltd
                 </h3>
                 <p>
-
                     Integrating business concepts by providing customized
                     innovative and creative business solutions underpinning holistic sustainable development,
                     while creating a sound partnership and skills sharing magnitude with big reputable companies.
