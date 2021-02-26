@@ -24,7 +24,7 @@
             </div>
 
             <div class="col-lg-6" id="" style="background:#fff;padding:0px;">
-                <div class="row" data-aos="fade-up" style="padding:0px;">
+                <div class="row" style="padding:0px;">
 
                     <?php
 
