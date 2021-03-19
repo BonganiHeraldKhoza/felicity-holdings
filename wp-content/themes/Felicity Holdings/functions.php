@@ -60,36 +60,53 @@
         return
         '
 
-        <p>
-            Felicity Holdings delivers a range of Business Solutions through its Subsidiaries; Felicity
-            Productions,
-            Felicity Business Solutions, Felicity Security Response.
-        </p>
-
-
         <div class="row">
-            <div class="col-lg-4 ">
-                <a href="#">
-                    <div class=" service-logos subsidiaries-container">
-                        <img class="img-fluid " src="'.get_theme_file_uri("/img/logo/Felicity Production.png").'" alt="">
-                    </div>
-                </a>
+            <div class="col-lg-12 text-left">
+                <h3>Felicity Productions  <img class="img-fluid" style="width:50px;padding-bottom:0px;" src="'.get_theme_file_uri("/img/logo/Felicity Production.png").'" alt=""></h3>
+                <p>
+            </div>
+            <div class="col-lg-8 text-left">
+                Felicity Productions is a sub-subsidiary of Felicity Holdings a company that has being in existence
+                 since 2015. Felicity Productions provides photography, video production and web design. 
+                 We are currently based in Nelspruit Mpumalanga, South Africa. We provide a wide range of Media 
+                 services for individuals, small and medium businesses (SMEs).
+                </p>
+                <p>
+                The company focuses on marketing on site responsiveness, quality assurance, creating and retaining customer
+                 base. In a world where media is evolving daily we are geared for growth with the adoption of best 
+                 global media practices, we have invested in state of the art media technologies and employed highly
+                  skilled individuals and we are committed to providing excellence in client service.
+                </p>
+               
+            </div>
+            <div class="col-lg-4 text-left">
+                <img class="img-fluid" style="max-width:100%;" src="'.get_theme_file_uri("/img/camera.png").'" alt="">
+            </div>
+            <div class="col-lg-12 text-left">
+            <p>
+            <a href="https://felicityproductions.co.za/" target="_blank">Visit Felicity Productions  &raquo;</a>
+            </p>
+                <hr/>
+            </div>
+        </div>    
+            <div class="row">
+
+            <div class="col-lg-12 text-left">
+                <h3> Felicity Business Solutions   <img class="img-fluid" style="width:50px;padding-bottom:0px;" src="'.get_theme_file_uri("/img/logo/Felicity Busines Solution.png").'" alt=""></h3>
+                <p></p>
+                <p>
+                <a href="#" target="_blank">Felicity Business Solutions  &raquo;</a>
+                </p>
+               <hr/>
             </div>
 
-            <div class="col-lg-4">
-                <a href="#">
-                    <div class=" service-logos subsidiaries-container">
-                        <img class="img-fluid" src="'.get_theme_file_uri("/img/logo/Felicity Busines Solution.png").'"alt="">
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4">
-                <a href="#">
-                    <div class=" service-logos subsidiaries-container">
-                        <img class="img-fluid" src="'.get_theme_file_uri("/img/logo/Felicity Security Response.png").'" alt="">
-                    </div>
-                </a>
+            <div class="col-lg-12 text-left">
+                <h3>Felicity Security Response  <img class="img-fluid" style="width:50px;padding-bottom:0px;" src="'.get_theme_file_uri("/img/logo/Felicity Security Response.png").'" alt=""></h3>
+                <p></p>
+                <p>
+                <a href="#" target="_blank">Felicity Security Response  &raquo;</a>
+                </p>
+               <hr/>
             </div>
         </div>   
 
@@ -110,16 +127,16 @@
                     <div class="phone">
                             <i class="icofont-phone"></i>
                             <h4>Call:</h4>
-                            <p>+27 (13) 004 0505</p>
+                            <p>+27 78 383 7337</p>
                     </div>
 
                     <div class="email">
                             <i class="icofont-envelope"></i>
                             <h4>Email:</h4>
-                            <p>:admin@felicityproductions.co.za</p>
+                            <p>:admin@felicityholdings.co.za</p>
                     </div>
             
-                    <div class="address">
+                    <div class="email">
                         <i class="icofont-google-map"></i>
                         <h4>Location:</h4>
                         <p>1791 Ingawane Street, Kamagugu, Mbombela 1200</p>

@@ -10,7 +10,7 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/ -->
-            Designed by <a href="https://khozabh.co.za">Khoza BH</a>
+            Designed by <a href="#">Felicity Business Solution</a>
         </div>
     </div>
 </footer><!-- End Footer -->

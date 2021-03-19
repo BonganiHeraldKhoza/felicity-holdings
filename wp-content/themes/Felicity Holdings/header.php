@@ -12,8 +12,8 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="mailto:admin@felicityproductions.co.za" style="color:#b18342;">admin@felicityproductions.co.za</a>
-        <i class="icofont-phone"></i> +27 (13) 004 0505
+        <i class="icofont-envelope"></i><a href="mailto:admin@felicityholdings.co.za" style="color:#b18342;">admin@felicityproductions.co.za</a>
+        <i class="icofont-phone"></i> +27 78 383 7337
       </div>
       <div class="social-links">
         <a href="https://twitter.com/felicipro" class="twitter"><i class="icofont-twitter"></i></a>
@@ -29,6 +29,7 @@
     <div id="banner-container">
       <a href="#"><img id="logoF" src="<?php echo get_theme_file_uri('/img/logo/banner3.png'); ?>" alt="" class="img-fluid"></a>
     </div>
+    
     <header id="header" style="border-bottom:1px solid #2e869a;" >
       <div class="container d-flex">
 
@@ -42,7 +43,7 @@
         <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li><a href="<?php  echo site_url(); ?>">Home</a></li>
-            <li class="drop-down "><a <?php if(is_page('about-us') or wp_get_post_parent_id(0) == 5) echo 'style="color: #b18342;"'; ?> href="#about">About Us</a>
+            <li class="drop-down "><a <?php if(is_page('about-us') or wp_get_post_parent_id(0) == 5) echo 'style="color: #b18342;"'; ?> >About Us</a>
               <ul>
                 <li <?php if(is_page('about-us')) echo 'class="active"'; ?>><a href="<?php  echo site_url('/about'); ?>">About Company</a></li>
                 <li <?php if(is_page('annual-reports-packaging')) echo 'class="active"'; ?>><a href="<?php  echo site_url('/annual-reports-packaging'); ?>">Annual Reports & Packaging</a></li>
