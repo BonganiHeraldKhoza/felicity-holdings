@@ -4,8 +4,11 @@
            <!-- ======= Hero Section ======= -->
     <section id="hero-section" class="hero-section-resp">
         <div class="row">
-            <div id="banner-containerM">
+            <div id="banner-containerIpad">
                 <a href="#"><img id="logoM" src="<?php echo get_theme_file_uri('/img/logo/banner3.png'); ?>" alt="" class="img-fluid"></a>
+            </div>  
+            <div id="banner-containerMobile">
+                <a href="#"><img id="logoMobile" src="<?php echo get_theme_file_uri('/img/logo/mobileBanner.png'); ?>" alt="" class="img-fluid"></a>
             </div>    
         </div>
     </section>

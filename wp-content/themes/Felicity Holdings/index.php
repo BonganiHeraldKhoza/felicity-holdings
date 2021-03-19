@@ -7,10 +7,15 @@
     
 
         <div class="row">
-            <div id="banner-containerM">
+            <div id="banner-containerIpad">
         <!--<h1 class="text-light"><a href="index" style="font-family:Nintend">Myeza Technogies</a></h1>-->
             <!-- Uncomment below if you prefer to use an image logo -->
                 <a href="#"><img id="logoM" src="<?php echo get_theme_file_uri('/img/logo/banner3.png'); ?>" alt="" class="img-fluid"></a>
+            </div>  
+            <div id="banner-containerMobile">
+        <!--<h1 class="text-light"><a href="index" style="font-family:Nintend">Myeza Technogies</a></h1>-->
+            <!-- Uncomment below if you prefer to use an image logo -->
+                <a href="#"><img id="logoMobile" src="<?php echo get_theme_file_uri('/img/logo/mobileBanner.png'); ?>" alt="" class="img-fluid"></a>
             </div>   
             <div class="col-lg-6" id="hero"
                 style="background: url(<?php echo get_theme_file_uri("img/sunset.jpg"); ?>) bottom center;">
@@ -23,45 +28,43 @@
                 </div>
             </div>
 
+
             <div class="col-lg-6" id="" style="background:#fff;padding:0px;">
-                <div class="row" style="padding:0px;">
+                <div  id="tabs-collection-destop">
+                    <div class="row" style="padding:0px;">
 
-                    <?php
+                        <?php
 
-            $queryP = new WP_Query(array( 
-              'post_type' => 'page',
-              'post_parent' => 5,
-              'order' => 'ASC',
-              
-            ));
+                        $queryP = new WP_Query(array( 
+                        'post_type' => 'page',
+                        'post_parent' => 5,
+                        'order' => 'ASC',
+                        
+                        ));
 
-            while($queryP->have_posts()){
-              $queryP->the_post();
-              if ($queryP->current_post +1 == $queryP->post_count) { 
-                $boxStretch= '12'; 
-              }else { 
-                $boxStretch= '6'; 
-              }
-          ?>
-                    <!-- right left-->
+                            while($queryP->have_posts()){
+                            $queryP->the_post();
+                            if ($queryP->current_post +1 == $queryP->post_count) { 
+                                $boxStretch= '12'; 
+                            }else { 
+                                $boxStretch= '6'; 
+                            }
+                        ?>
+                        <!-- right left-->
 
-                    <div class="col-lg-<?php echo $boxStretch ?> header-right-links">
-                        <a href="<?php the_permalink(); ?>">
-                            <div class="header-right-font" data-aos="fade-up">
-                                <span><?php the_title(); ?> &raquo;</span>
-                            </div>
-                        </a>
+                        <div class="col-lg-<?php echo $boxStretch ?> header-right-links">
+                            <a href="<?php the_permalink(); ?>">
+                                <div class="header-right-font">
+                                    <span><?php the_title(); ?> &raquo;</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <?php }?>
+
                     </div>
-
-                    <?php }?>
-
-
-
-
-
-
-                </div>
-            </div>
+                </div>    
+ 
 
         </div>
     </section>
@@ -75,17 +78,15 @@
             <div class="section-title">
                 <h3>Services <span id="header-resize">Felicity Holdings (Pty) Ltd.</span></h3>
             </div>
-
-            <p>
+            <p style="font-weight: 600;line-height: 1.2;color:#696463;">
                 Felicity Holdings delivers a range of Business Solutions through its Subsidiaries; Felicity
                 Productions,
                 Felicity Business Solutions, Felicity Security Response.
             </p>
 
-
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-4 ">
-                    <a href="#">
+                    <a href="https://felicityproductions.co.za" target="_blank">
                         <div class=" service-logos subsidiaries-container">
                             <img class="img-fluid "
                                 src="<?php echo get_theme_file_uri('/img/logo/Felicity Production.png'); ?>" alt="">
@@ -112,7 +113,58 @@
                         </div>
                     </a>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h3>Felicity Productions  <img class="img-fluid" style="width:50px;padding-bottom:0px;" src="<?php echo get_theme_file_uri("/img/logo/Felicity Production.png"); ?>" alt=""></h3>
+                    <p>
+                </div>
+                <div class="col-lg-8 text-left">
+                    Felicity Productions is a sub-subsidiary of Felicity Holdings a company that has being in existence
+                    since 2015. Felicity Productions provides photography, video production and web design. 
+                    We are currently based in Nelspruit Mpumalanga, South Africa. We provide a wide range of Media 
+                    services for individuals, small and medium businesses (SMEs).
+                    </p>
+                    <p>
+                    The company focuses on marketing on site responsiveness, quality assurance, creating and retaining customer
+                    base. In a world where media is evolving daily we are geared for growth with the adoption of best 
+                    global media practices, we have invested in state of the art media technologies and employed highly
+                    skilled individuals and we are committed to providing excellence in client service.
+                    </p>
+                
+                </div>
+                <div class="col-lg-4 text-left">
+                    <img class="img-fluid" style="max-width:100%;" src="<?php echo get_theme_file_uri("/img/camera.png"); ?>" alt="">
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p>
+                    <a href="https://felicityproductions.co.za/" target="_blank">Visit Felicity Productions  &raquo;</a>
+                    </p>
+                        <hr/>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-lg-12 text-right">
+                    <h3> Felicity Business Solutions   <img class="img-fluid" style="width:50px;padding-bottom:0px;" src="<?php echo get_theme_file_uri("/img/logo/Felicity Busines Solution.png"); ?>" alt=""></h3>
+                    <p></p>
+                    <p>
+                    <a href="#" target="_blank">Felicity Business Solutions  &raquo;</a>
+                    </p>
+                    <hr/>
+                </div>
             </div>
+            <div class="row">              
+                <div class="col-lg-12 text-left">
+                    <h3>Felicity Security Response  <img class="img-fluid" style="width:50px;padding-bottom:0px;" src="<?php echo get_theme_file_uri("/img/logo/Felicity Security Response.png"); ?>" alt=""></h3>
+                    <p></p>
+                    <p>
+                    <a href="#" target="_blank">Felicity Security Response  &raquo;</a>
+                    </p>
+                    <hr/>
+                </div>
+            </div>   
+
         </div>
     </section>
     <!-- ======= Cta Section ======= -->
@@ -161,7 +213,7 @@
                                 <p>:admin@felicityproductions.co.za</p>
                         </div>
                        
-                        <div class="address">
+                        <div class="email">
                             <i class="icofont-google-map"></i>
                             <h4>Location:</h4>
                             <p>1791 Ingawane Street, Kamagugu, Mbombela 1200</p>
