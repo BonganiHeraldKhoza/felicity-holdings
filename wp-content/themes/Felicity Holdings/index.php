@@ -72,7 +72,7 @@
 
 
     <!-- ======= About Section -->
-    <section class="about text-center">
+    <section id="services" class="about text-center">
         <div class="container">
 
             <div class="section-title">

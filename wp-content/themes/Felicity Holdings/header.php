@@ -12,8 +12,8 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="mailto:admin@felicityholdings.co.za" style="color:#b18342;">admin@felicityproductions.co.za</a>
-        <i class="icofont-phone"></i> +27 78 383 7337
+        <i class="icofont-envelope"></i><a href="mailto:admin@felicityholdings.co.za" style="color:#b18342;">admin@felicityholdings.co.za</a>
+        <i class="icofont-phone"></i>+27 78 383 7337
       </div>
       <div class="social-links">
         <a href="https://twitter.com/felicipro" class="twitter"><i class="icofont-twitter"></i></a>
@@ -57,7 +57,7 @@
                 <li <?php if(is_page('videograph-photograph')) echo 'class="active"'; ?>><a href="<?php  echo site_url('/videograph-photograph'); ?>">Videograph & Photograph</a></li> 
               </ul>
             </li>
-            <li><a <?php if(is_page('services')) echo 'style="color: #b18342;"'; ?> href="<?php echo site_url('/services'); ?>">Our Services</a></li>
+            <li><a <?php if(is_page('services')) echo 'style="color: #b18342;"'; ?> href="#services">Our Services</a></li>
             <li><a <?php if(is_page('contacts')) echo 'style="color: #b18342;"'; ?> href="<?php  echo site_url('/contacts'); ?>">Contact Us</a></li>
           </ul>
         </nav><!-- .nav-menu -->
